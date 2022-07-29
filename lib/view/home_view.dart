@@ -7,8 +7,8 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        onPressed: (){},
-        child: Icon(Icons.add),
+        onPressed: () {},
+        child:const Icon(Icons.add),
       ),
       body: Center(
         child: Text('0'),
